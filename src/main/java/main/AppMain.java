@@ -21,17 +21,6 @@ public class AppMain{
     public static final double M = 1989;
 
     public static void main(String[] args) {
-       // ExpressionStr e = new ExpressionStr("(2 + 8) * 2 ", Collections.EMPTY_LIST);
-       // e.setValuesOfVariables(Collections.EMPTY_LIST);
-        //System.out.println(e.solve());
-
-        System.out.println(new BuilderTokenTree("(-2)*(-2)", Collections.EMPTY_LIST).buildTree().setValuesOfVariableTokens(Collections.EMPTY_LIST).solve());
-        System.out.println(new BuilderTokenTree("-2*(-2)", Collections.EMPTY_LIST).buildTree().setValuesOfVariableTokens(Collections.EMPTY_LIST).solve());
-        System.out.println(new BuilderTokenTree("(-2)*-2", Collections.EMPTY_LIST).buildTree().setValuesOfVariableTokens(Collections.EMPTY_LIST).solve());
-        System.out.println(new BuilderTokenTree("-2*-2", Collections.EMPTY_LIST).buildTree().setValuesOfVariableTokens(Collections.EMPTY_LIST).solve());
-        System.out.println(new BuilderTokenTree("(-2)*(-2)", Collections.EMPTY_LIST).buildTree().setValuesOfVariableTokens(Collections.EMPTY_LIST).solve());
-        System.out.println(new BuilderTokenTree("(-2)*(-2)", Collections.EMPTY_LIST).buildTree().setValuesOfVariableTokens(Collections.EMPTY_LIST).solve());
-        System.out.println(new BuilderTokenTree("(-2)*(-2)", Collections.EMPTY_LIST).buildTree().setValuesOfVariableTokens(Collections.EMPTY_LIST).solve());
 
     }
 
